@@ -1,6 +1,6 @@
 'use strict';
 
-class randomBox {
+class RandomBox {
 	constructor(arg) {
 		if (!Array.isArray(arg)) {
 			console.error('NOT ARRAY, Odi.error...', arg);
@@ -42,4 +42,4 @@ class randomBox {
 		// console.log('randomBox.reload', this.cycle);
 	}
 }
-exports.randomBox = randomBox;
+exports.RandomBox = RandomBox;

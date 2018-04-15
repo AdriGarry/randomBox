@@ -1,6 +1,6 @@
 {
 	"name": "randombox",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Random box module",
 	"main": "randomBox.js",
 	"directories": {
