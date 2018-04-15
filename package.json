@@ -1,23 +1,20 @@
 {
 	"name": "randombox",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Random box module",
-	"main": "onoff.js",
+	"main": "randomBox.js",
 	"directories": {
 		"example": "examples",
 		"test": "test"
 	},
 	"scripts": {
-		"test": "cd test && ./run-tests && cd .."
+		"test": "node test.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/adrigarry/randomBox.git"
 	},
-	"dependencies": {
-		"epoll": "^2.0.1",
-		"lodash.debounce": "^4.0.8"
-	},
+	"dependencies": {},
 	"keywords": ["random"],
 	"author": "AdriGarry",
 	"license": "MIT"
