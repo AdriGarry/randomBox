@@ -7,7 +7,7 @@ class RandomBox {
 			return;
 		}
 		this.archive = arg.slice(0);
-		this.cycle = this.randomize(arg);
+		this.cycle = this._randomize(arg);
 		this.next = this.next;
 		// console.log('Box:', this);
 	}
@@ -21,19 +21,19 @@ class RandomBox {
 		return nextItem;
 	}
 
-	randomize(array) {
-		// console.log('randomBox.randomize', array);
+	_randomize(array) {
+		// console.log('randomBox._randomize', array);
 		let arr = array.slice(0).sort(function() {
 			return 0.5 - Math.random();
 		});
-		// console.log('randomBox.randomize', array, '=>', arr);
+		// console.log('randomBox._randomize', array, '=>', arr);
 		return arr;
 	}
 	reload(lastItem) {
 		//do{
-		//	Box.cycle = randomize(Box.archive);
+		//	Box.cycle = _randomize(Box.archive);
 		//}while(Box.cycle[0] == Box.archive[0]);
-		this.cycle = this.randomize(this.archive);
+		this.cycle = this._randomize(this.archive);
 		if (this.cycle[0] == lastItem) {
 			// console.log('-----> SAME. lastItem:', lastItem);
 			this.reload(lastItem);
