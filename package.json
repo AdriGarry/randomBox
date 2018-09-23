@@ -1,6 +1,6 @@
 {
 	"name": "randombox",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Random box module",
 	"main": "randomBox.js",
 	"directories": {
@@ -15,7 +15,9 @@
 		"url": "https://github.com/adrigarry/randomBox.git"
 	},
 	"dependencies": {},
-	"keywords": ["random"],
+	"keywords": [
+		"random"
+	],
 	"author": "AdriGarry",
 	"license": "MIT"
 }
