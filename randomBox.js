@@ -3,7 +3,7 @@
 class RandomBox {
 	constructor(arg) {
 		if (!Array.isArray(arg)) {
-			console.error('NOT ARRAY, Odi.error...', arg);
+			console.error('arg is NOT ARRAY...', arg);
 			return;
 		}
 		this.archive = arg.slice(0);
