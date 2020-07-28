@@ -1,5 +1,7 @@
 # randomBox
 
+NPM: https://www.npmjs.com/package/randombox
+
 ## RandomBox
 
 This module creates an object from an array, with a next function that return each time a different random item from the array.
